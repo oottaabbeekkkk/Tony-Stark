@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui;
+    margin: 0;
+}
+*::before, *::after {
+    box-sizing: inherit;
+}
+span, a, label {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.pic1{
+    width: 45%;
+}
+.pic2{
+    width: 45%;
+}
+.box1{
+    width: 100%;
+    padding: 50px;
+    margin: auto;
+    text-align: right;
+    border: 5px solid blue;
+}
+.btn{
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+.box2{
+    padding: 20px;
+    text-align: center;
+}
+.new{
+    display: none;
+}
+.new2{
+    display: block;
+}
+.moon{
+    transform: scale(360deg);
+    transition: 3s all linear;
+    display: none;
+}
